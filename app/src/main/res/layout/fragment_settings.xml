@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sendNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Enviar Notificaciones" />
+
+        <Button
+            android:id="@+id/setHomeResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Actualizar resultado HOME" />
+
+        <Button
+            android:id="@+id/setResultadoJornada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Actualizar resultado Jornada" />
+
+        <Button
+            android:id="@+id/changeHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Cambiar hora partido" />
+
+        <Button
+            android:id="@+id/changeHourTraining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Cambiar hora entreno" />
+
+        <Button
+            android:id="@+id/changeComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Cambiar comentario" />
+
+        <Button
+            android:id="@+id/resetConvocatoriaPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Resetear Convocatoria" />
+
+        <Button
+            android:id="@+id/resetEntrenamientoPartido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Resetear Entrenamiento" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:text="--------------------------------------------------------------------------------------------------------------------------------------------------" />
+
+        <Button
+            android:id="@+id/crearEquiposBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Crear Equipos" />
+
+        <Button
+            android:id="@+id/guardarDATA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Guardar .dat Firebase" />
+
+        <Button
+            android:id="@+id/leerDATA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Leer .dat Firebase" />
+
+    </LinearLayout>
+</ScrollView>

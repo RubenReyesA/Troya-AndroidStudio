@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_stats"
+            android:title="Estadísticas" />
+        <item
+            android:id="@+id/nav_classf"
+            android:icon="@drawable/ic_classf"
+            android:title="Resultados - Clasificación" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendario" />
+        <item
+            android:id="@+id/nav_gps"
+            android:icon="@drawable/ic_gps"
+            android:title="Ubicación - GPS" />
+        <item
+            android:id="@+id/nav_convocatoria"
+            android:icon="@drawable/ic_convocatoria"
+            android:title="Convocatoria" />
+        <item
+            android:id="@+id/nav_entreno"
+            android:icon="@drawable/ic_entrenamiento"
+            android:title="Entrenamiento" />
+        <item
+            android:id="@+id/nav_plantilla"
+            android:icon="@drawable/ic_plantilla"
+            android:title="Plantilla" />
+        <item
+            android:id="@+id/nav_cuentas"
+            android:icon="@drawable/ic_attach_money"
+            android:title="Cuentas" />
+    </group>
+
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/ic_vpn_key"
+        android:title="Iniciar Sesión">
+    </item>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_settings"
+        android:visible="false"
+        android:icon="@drawable/ic_settings_black"
+        android:title="Configuración" />
+    </group>
+
+</menu>

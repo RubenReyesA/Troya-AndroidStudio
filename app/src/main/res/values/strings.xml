@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TroyaAPP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="precios"> <u>Precio</u></string>
+    <string name="conceptos"> <u>Concepto</u></string>
+    <string name="formato_hora">hh:mm</string>
+
+</resources>
